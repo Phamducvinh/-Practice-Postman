@@ -1,8 +1,12 @@
 # Practice-Postman
 
-## Introduction
-This repository contains the Postman collection for testing a User Management API. The API allows for creating, viewing, updating, and deleting users.
-
+## Mục tiêu:
+- Nắm vững các khái niệm cơ bản về kiểm thử API.
+- Rèn luyện kỹ năng sử dụng Postman để thực hiện các thao tác kiểm thử API.
+- Áp dụng kiến thức đã học để thực hiện một bài tập thực tế.
+### API Được Chọn
+- jsonplaceholder.typicode.com
+    + API cho phép tạo, xem, cập nhật và xóa người dùng.
 ## API Endpoints
 1. **Create User (POST)**
    - **URL**: `https://jsonplaceholder.typicode.com/users`
@@ -17,6 +21,7 @@ This repository contains the Postman collection for testing a User Management AP
      }
      ```
    - **Expected Response Code**: `201 Created`
+   -![alt text](image-1.png)
 
 2. **Get Users (GET)**
    - **URL**: `https://jsonplaceholder.typicode.com/users`
@@ -37,11 +42,13 @@ This repository contains the Postman collection for testing a User Management AP
      }
      ```
    - **Expected Response Code**: `200 OK`
+   - ![alt text](image-2.png)
 
 4. **Delete User (DELETE)**
    - **URL**: `https://jsonplaceholder.typicode.com/users/1`
    - **Method**: DELETE
    - **Expected Response Code**: `200 OK`
+   - ![alt text](image-3.png)
 
 ## How to Use
 1. Clone the repository:
