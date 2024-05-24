@@ -22,6 +22,7 @@ This repository contains the Postman collection for testing a User Management AP
    - **URL**: `https://jsonplaceholder.typicode.com/users`
    - **Method**: GET
    - **Expected Response Code**: `200 OK`
+   - ![alt text](image.png)
 
 3. **Update User (PUT)**
    - **URL**: `https://jsonplaceholder.typicode.com/users/1`
@@ -45,4 +46,4 @@ This repository contains the Postman collection for testing a User Management AP
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/User-Management-API-Testing.git
+   git clone https://github.com/Phamducvinh/-Practice-Postman
